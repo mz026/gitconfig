@@ -1,0 +1,14 @@
+[alias]
+	co = checkout
+  br = branch
+  ci = commit 
+  aa = add .
+  st = status
+  unstage = reset HEAD --
+  ps = push
+  pl = pull
+  lgp = log --pretty=oneline
+  r = remote
+  lgg = log --graph --pretty=format:'%h  %s'
+[core]
+  editor = vim
