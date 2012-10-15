@@ -9,7 +9,8 @@
   pl = pull
   lgp = log --pretty=oneline
   r = remote
-  lgg = log --graph --pretty=format:'%h  %s'
+  lgg = log --graph --pretty=format:'%C(green)%h%Creset  %s'
+  l = log --pretty=format:'* %C(green)%h%Creset %an - %s'
 [core]
   editor = vim
 
@@ -17,3 +18,6 @@
   branch = auto
   diff = auto
   status = auto
+[user]
+	name = Yang-Hsing Lin
+	email = yanghsing.lin@thekono.com
