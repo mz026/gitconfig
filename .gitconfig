@@ -11,6 +11,9 @@
   r = remote
   lgg = log --graph --pretty=format:'%C(green)%h%Creset  %s'
   l = log --pretty=format:'* %C(green)%h%Creset %an - %s'
+  psod = push origin development
+  ft = fetch
+  mod = merge origin development
 [core]
   editor = vim
 
