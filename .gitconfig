@@ -13,7 +13,7 @@
   l = log --pretty=format:'* %C(green)%h%Creset %an - %s'
   psod = push origin development
   ft = fetch
-  mod = merge origin development
+  mod = merge origin/development
 [core]
   editor = vim
 
