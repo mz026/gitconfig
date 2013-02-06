@@ -10,17 +10,22 @@
   lgp = log --pretty=oneline
   r = remote
   lgg = log --graph --pretty=format:'%C(green)%h%Creset  %s'
-  l = log --pretty=format:'* %C(green)%h%Creset %an - %s'
+  l = log --graph --pretty=format':%C(green)%h%Cblue%d%Creset %s %C(black bold) %an, %ar%Creset'
   psod = push origin development
   ft = fetch
   mod = merge origin development
 [core]
   editor = vim
 
+[status]
+  submodule = 1
+
 [color]
   branch = auto
   diff = auto
   status = auto
+  ui = true
 [user]
 	name = Yang-Hsing Lin
 	email = yanghsing.lin@thekono.com
+
