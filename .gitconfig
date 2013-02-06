@@ -13,7 +13,7 @@
   l = log --graph --pretty=format':%C(green)%h%Cblue%d%Creset %s %C(black bold) %an, %ar%Creset'
   psod = push origin development
   ft = fetch
-  mod = merge origin development
+  mod = merge origin/development
 [core]
   editor = vim
 
